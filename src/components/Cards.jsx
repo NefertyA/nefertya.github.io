@@ -14,7 +14,7 @@ function Cards() {
                 src="Website.png"
                 text="website portfolio."
                 desc="a portfolio website built with React to showcase my projects and experiences."
-                path="https://github.com/NefertyA/Connect4"
+                path="https://nefertya.github.io/"
                 />
                 <CardItem 
                 src="ExcelImage.jpg"
