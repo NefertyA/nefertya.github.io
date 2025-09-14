@@ -32,8 +32,8 @@ export const Button = ({children, type, onClick, buttonStyle, buttonSize, to, do
     
       if (to) {
         return (
-          <a 
-            href={to} 
+          <Link
+            to={to} 
             target={target}
             rel="noopener noreferrer"
             className='btn-mobile'
@@ -44,7 +44,7 @@ export const Button = ({children, type, onClick, buttonStyle, buttonSize, to, do
             >
               {children}
             </button>
-          </a>
+          </Link>
         )
       }
     
