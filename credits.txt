@@ -1,0 +1,18 @@
+MainSectionImage.jpg:
+Photo by <a href="https://unsplash.com/@wasdrew?utm_content=creditCopyText&utm_medium=referral&utm_source=unsplash">Andras Vas</a> on <a href="https://unsplash.com/photos/macbook-pro-turned-on-Bd7gNnWJBkU?utm_content=creditCopyText&utm_medium=referral&utm_source=unsplash">Unsplash</a>
+
+AboutMeImage.jpg:
+Photo by <a href="https://unsplash.com/@lorenzoherrera?utm_content=creditCopyText&utm_medium=referral&utm_source=unsplash">Lorenzo Herrera</a> on <a href="https://unsplash.com/photos/vintage-gray-game-console-and-joystick-p0j-mE6mGo4?utm_content=creditCopyText&utm_medium=referral&utm_source=unsplash">Unsplash</a>
+
+ComputerCoding.jpg
+Photo by <a href="https://unsplash.com/@afgprogrammer?utm_content=creditCopyText&utm_medium=referral&utm_source=unsplash">Mohammad Rahmani</a> on <a href="https://unsplash.com/photos/black-flat-screen-computer-monitor-8qEB0fTe9Vw?utm_content=creditCopyText&utm_medium=referral&utm_source=unsplash">Unsplash</a>
+
+Graph.jpg
+Photo by <a href="https://unsplash.com/@nampoh?utm_content=creditCopyText&utm_medium=referral&utm_source=unsplash">Maxim Hopman</a> on <a href="https://unsplash.com/photos/red-and-blue-light-streaks-fiXLQXAhCfk?utm_content=creditCopyText&utm_medium=referral&utm_source=unsplash">Unsplash</a>
+
+Cat Image (Github PFP):
+Photo by <a href="https://unsplash.com/@vladimir_d?utm_content=creditCopyText&utm_medium=referral&utm_source=unsplash">Volodymyr Dobrovolskyy</a> on <a href="https://unsplash.com/photos/a-cat-sitting-in-front-of-a-computer-monitor-KrYbarbAx5s?utm_content=creditCopyText&utm_medium=referral&utm_source=unsplash">Unsplash</a>
+
+ExcelImage.jpg:
+Photo by <a href="https://unsplash.com/@kommumikation?utm_content=creditCopyText&utm_medium=referral&utm_source=unsplash">Mika Baumeister</a> on <a href="https://unsplash.com/photos/white-printing-paper-with-numbers-Wpnoqo2plFA?utm_content=creditCopyText&utm_medium=referral&utm_source=unsplash">Unsplash</a>
+
