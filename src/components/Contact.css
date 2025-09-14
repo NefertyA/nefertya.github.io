@@ -1,0 +1,91 @@
+.contact-container {
+  position: relative;
+  padding-top: 4rem;
+  height: 70vh;
+  margin: 0 auto;
+  text-align: center;
+  color: #fff;
+  overflow: hidden; /* ensures background layer stays behind */
+  z-index: 1;
+}
+
+/* Background image layer */
+.contact-container::before {
+  content: "";
+  position: absolute;
+  inset: 0;
+  background: url('/public/AboutMeImage.jpg') center center/cover no-repeat;
+  filter: blur(8px); /* blur the background */
+  transform: scale(1.05);
+  z-index: -2;       /* behind overlay and content */
+}
+
+/* Dark overlay layer */
+.contact-container::after {
+  content: "";
+  position: absolute;
+  inset: 0;
+  box-shadow: inset 0 0 0 1000px rgba(0, 0, 0, 0.5);
+  z-index: -1; /* above background but below content */
+}
+
+.contact-container h1 {
+  font-size: 3rem;
+  margin-bottom: 1rem;
+  position: relative;
+  z-index: 1;
+}
+
+.contact-container p {
+  font-size: 1.2rem;
+  margin-bottom: 2rem;
+  position: relative;
+  z-index: 1;
+}
+
+.contact-form {
+    width: 80%;
+    max-width: 600px;
+    margin: 0 auto;
+  display: flex;
+  flex-direction: column;
+  gap: 1.5rem;
+  text-align: left;
+}
+
+.contact-form label {
+  display: flex;
+  flex-direction: column;
+  font-size: 1.1rem;
+}
+
+.contact-form input,
+.contact-form textarea {
+  margin-top: 0.5rem;
+  padding: 0.8rem 1rem;
+  border-radius: 8px;
+  border: none;
+  font-size: 1rem;
+}
+
+.contact-form input:focus,
+.contact-form textarea:focus {
+  outline: 2px solid rgba(0, 0, 0, 0.2);
+}
+
+.contact-button {
+  align-self: flex-start;
+  margin: 0 auto;
+  padding: 0.8rem 2rem;
+  font-size: 1.1rem;
+  background-color: #242222;
+  color: white;
+  border: none;
+  border-radius: 8px;
+  cursor: pointer;
+  transition: all 0.2s ease-in-out;
+}
+
+.contact-button:hover {
+  background-color: black;
+}

@@ -1,0 +1,12 @@
+.hover-image-row {
+    display: flex; /* Use flexbox to arrange items in a row */
+    justify-content: space-between; /* Add space between the items */
+    align-items: center; /* Align items vertically */
+    flex-wrap: wrap; /* Allow wrapping if the screen is too small */
+    padding: 0px; /* Optional: Add padding around the row */
+}
+
+.hover-image-container {
+    flex: 1 1 100%; /* Each item takes up 25% of the row minus the gap */
+    box-sizing: border-box; /* Include padding and border in the width */
+}

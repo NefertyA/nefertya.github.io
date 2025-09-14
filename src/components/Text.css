@@ -1,0 +1,25 @@
+  .text {
+/*     background: url('/public/MainSectionImage.jpg') center center/cover no-repeat; */
+    background:  white;
+    height: 25vh;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    object-fit: contain;
+  }
+
+.text > h1 {
+    font-size: 50px;
+    text-align: center;
+    color: 242222;
+}
+
+.text > p {
+    margin: 8px 16px 8px;
+    text-align: center;
+    color: 242222;
+    font-size: 24px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}

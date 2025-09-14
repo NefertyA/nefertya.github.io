@@ -1,0 +1,63 @@
+.hover-image-container {
+    position: relative;
+    width: 300px; /* Adjust the width as needed */
+    height: 400px; /* Adjust the height as needed */
+    overflow: hidden;
+    padding-top: 10px;
+    border-radius: 0px; /* Optional: Add rounded corners */
+}
+
+.hover-image-container::after {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: rgba(255, 105, 180, 0.12); /* Hot pink with 40% opacity */
+    pointer-events: none; /* So clicks still go through */
+}
+
+.hover-image {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    box-shadow: inset 0 0 0 1000px rgba(0, 0, 0, 0.5);
+    transition: filter 0.3s ease; /* Smooth transition for the blur effect */
+}
+
+.hover-header {
+    position: absolute;
+    top: 30%;
+    left: 50%;
+    width: 100%;
+    transform: translate(-50%, -50%);
+    color: white;
+    font-size: 42px;
+    text-align: center;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.7);
+    z-index: 1;
+}
+
+.hover-text {
+    position: absolute;
+    padding-top: 20px;
+    top: 50%;
+    left: 50%;
+    width: 80%;
+    transform: translate(-50%, -50%);
+    color: white;
+    font-size: 24px;
+    text-align: center;
+    opacity: 0; /* Initially hidden */
+    transition: opacity 0.3s ease; /* Smooth transition for the text appearance */
+    z-index: 1;
+}
+
+.hover-image-container:hover .hover-image {
+    filter: blur(5px) brightness(50%); /* Apply blur effect on hover */
+}
+
+.hover-image-container:hover .hover-text {
+    opacity: 1; /* Show the text on hover */
+}
