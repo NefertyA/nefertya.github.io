@@ -7,7 +7,7 @@ import WorkExperience from './components/pages/WorkExperience';
 import Portfolio from './components/pages/Portfolio';
 import ContactMe from './components/pages/ContactMe';
 import Footer from './components/Footer';
-import { BrowserRouter as Router, Routes, Route } from 'react-router-dom';
+import { HashRouter as Router, Routes, Route } from 'react-router-dom';
 
 function App() {
   return (
